@@ -1,0 +1,151 @@
+@media (min-width:750px) {
+    .bottom_sec {
+        margin-top: 12%;
+    }
+    .headsec {
+        text-align: right;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .top_bg .logo,
+    .top_bg .caption {
+        margin-bottom: 0px;
+    }
+    .top_bg .caption {
+        text-align: right;
+    }
+    .top_bg .logo,
+    .footer_bg .icon,
+    .footer_bg h2 {
+        text-align: left;
+    }
+    .desktop_nav {
+        float: right;
+    }
+    .nav>li>a {
+        padding: 10px 6px;
+    }
+    .navbar-nav>li {
+        margin: 0px 8px;
+    }
+    .right_padding {
+        padding-right: 30px;
+    }
+    .left_padding {
+        padding-left: 30px;
+    }
+    .top_margin {
+        margin-top: 15px;
+    }
+    .nav_bg .right_sec {
+        width: 150px;
+    }
+    .footer_bg .footer_link {
+        text-align: left;
+    }
+    .footer_bg p {
+        text-align: right;
+    }
+    .border_left {
+        border-left: 1px solid #D3D3D3;
+    }
+    .border_right {
+        border-right: 1px solid #D3D3D3;
+    }
+}
+
+@media (min-width:970px) {
+    .nav_bg .padding_sec {
+        padding: 4px 0px 0px 2%;
+    }
+    .nav_bg .right_sec {
+        width: 200px;
+    }
+    .welcome_sec h2 {
+        font-size: 16px;
+    }
+    .contact_sec h2 {
+        font-size: 22px;
+    }
+    .contentWrapper {
+        width: 650px;
+        background: url(images/box_970.jpg) no-repeat left top;
+        height: 728px;
+    }
+    .main_content {
+        overflow: visible;
+        height: auto;
+        width: 235px;
+        padding-right: 5px;
+        position: absolute;
+        top: 0px;
+    }
+    .scrolling {
+        height: 450px;
+        width: 240px;
+    }
+    .jScrollPaneContainer {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        left: 140px;
+        top: 200px;
+    }
+    .jScrollPaneDrag {
+        position: absolute;
+        background: #86663a;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .mobile_view {
+        display: none;
+    }
+    .desktop_view {
+        display: block;
+    }
+}
+
+@media (min-width:1170px) {
+    .nav_bg .navigation li {
+        padding: 6px 15px;
+    }
+    .nav_bg .navigation li a {
+        font-size: 15px;
+    }
+    .nav_bg .right_sec {
+        width: 350px;
+    }
+    .welcome_sec {
+        margin-bottom: 30px;
+    }
+    .welcome_sec h2 {
+        font-size: 23px;
+    }
+    .contentWrapper {
+        width: 805px;
+        background: url(images/box.jpg) no-repeat left top;
+        height: 875px;
+    }
+    .main_content {
+        overflow: visible;
+        height: auto;
+        width: 291px;
+        padding-right: 5px;
+        position: absolute;
+        top: 0px;
+    }
+    .scrolling {
+        height: 500px;
+        width: 306px;
+    }
+    .jScrollPaneContainer {
+        top: 240px;
+        left: 205px;
+    }
+    .footer_bg .icon .left_side {
+        width: 18%;
+    }
+    .contact_sec h2 {
+        font-size: 25px;
+    }
+}
